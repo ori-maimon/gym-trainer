@@ -31,17 +31,6 @@
                 <li>
                     <a class="page-scroll" href="#about">About Me</a>
                 </li>
-                <li class="dropdown">
-                    <a href="#" class="dropdown-toggle page-scroll" data-toggle="dropdown" role="button"
-                       aria-haspopup="true" aria-expanded="false">
-                        Programmes <span class="caret"></span>
-                    </a>
-                    <ul class="dropdown-menu">
-                        {% for program in site.data.programs %}
-                        <li><a href="#{{program.program_id}}" class="page-scroll">{{program.name}}</a></li>
-                        {% endfor %}
-                    </ul>
-                </li>
                 <li>
                     <a class="page-scroll" href="{{site.baseurl}}/booking#book">Book Now</a>
                 </li>
@@ -59,17 +48,6 @@
                 </li>
                 <li>
                     <a class="page-scroll" href="{{site.baseurl}}/#services">Specialist Areas</a>
-                </li>
-                <li class="dropdown">
-                    <a href="#" class="dropdown-toggle page-scroll" data-toggle="dropdown" role="button"
-                       aria-haspopup="true" aria-expanded="false">
-                        Programmes <span class="caret"></span>
-                    </a>
-                    <ul class="dropdown-menu">
-                        {% for program in site.data.programs %}
-                        <li><a href="{{site.baseurl}}/{{program.program_id}}" class="page-scroll">{{program.name}}</a></li>
-                        {% endfor %}
-                    </ul>
                 </li>
                 <li>
                     <a class="page-scroll" href="{{site.baseurl}}/#shop">Shop</a>
