@@ -1,13 +1,11 @@
 # Site settings
-title: Jaz BooM Personal Training
-email: jaz_personaltraining@yahoo.co.uk
-description: "Jaz BooM Personal Training Official Webpage"
+title: Ori Maimon Personal Training
+email: orimaimon22@gmail.com
+description: "Ori Maimon Personal Training"
 baseurl: "/"
-url: "https://www.jazboompersonaltraining.co.uk"
-#baseurl: "/jazzsinghpersonaltrainer"
-#url: "https://atmenterprise.github.io"
+url: "https://ori-maimon.github.io/gym-trainer/"
 include: ["_pages"]
-logo: 'img/logo/jazboom.png'
+logo: 'img/logo/'
 
 facebook_url: https://www.facebook.com/JazBooMPT
 instagram_url: https://www.instagram.com/jaz_boom_pt/
